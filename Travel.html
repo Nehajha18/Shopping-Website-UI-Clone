@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+            font-family: Arial;
+
+
+
+            
+        }
+
+        .row-1 {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: rgb(250, 247, 247);
+            padding-left: 200px;
+
+
+        }
+
+        .row-2 {
+            display: flex;
+            justify-content: space-around;
+            padding: 25px;
+            background-color: white;
+        }
+
+        .nav-item {
+            padding: 10px;
+        }
+
+        .raw-1 span {
+
+            /* padding-right: 100px; */
+
+        }
+
+        .row-2 span {
+            padding: 10px;
+            padding-right: 40px;
+        }
+
+        .logo span {
+            padding-right: 30px;
+        }
+
+        .brand-title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 220px;
+        }
+
+        .nav-item {
+            padding: 10px;
+
+        }
+
+        .bi-truck {
+            padding-right: 30px;
+
+        }
+
+        .menue {
+            padding-left: 100px;
+
+        }
+
+        article {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .bi-lightning-fill {
+            color: red;
+        }
+
+        .info {
+            padding-left: 70px;
+        }
+
+        /* --------- fahshion-------------- */
+
+        .women-fashion,
+        .male-fashion,
+        .kids-fashion {
+            height: 500px;
+            background-size: cover;
+            background-color: rgba(red, green, blue, 0.7);
+        }
+
+        .women-fashion {
+            background-image: url("images/women-fashion.jpg");
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .male-fashion {
+            background-image: url("images/Male-fashion.jpg");
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .kids-fashion {
+            background-image: url("images/kids-fashion.jpg");
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .fashion {
+            display: grid;
+
+            grid-template-columns: 4fr 4fr 4fr;
+            margin-top: 10px;
+        }
+
+        .women2 {
+
+            font-weight: bold;
+            font-size: 50px;
+            padding-top: 80px;
+            color: white;
+            text-shadow: 1px 1px 2px black;
+
+
+
+        }
+
+        .women3 {
+
+            background-color: white;
+            justify-content: space-around;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        .side-text {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px;
+
+        }
+        .gray{
+            color:rgb(99, 89, 89)
+        }
+        .last-text{
+            text-align: center;
+            margin:100px;
+        }
+        .bold{
+            font-size: 30px;
+            font-weight: bold;
+            padding:20px;
+        }
+        .inside-text{
+            color:gray;
+        }
+        .first-line{
+            color: rgb(169, 151, 151);
+        }
+        .men2 {
+
+ font-weight: bold;
+ font-size: 50px;
+ padding-top: 80px;
+ color: white;
+  text-shadow: 1px 1px 2px black;
+
+
+
+}
+.men3 {
+
+background-color: white;
+justify-content: space-around;
+font-size: 20px;
+padding: 20px;
+}
+.kids2 {
+
+font-weight: bold;
+font-size: 50px;
+padding-top: 80px;
+color: white;
+text-shadow: 1px 1px 2px black;
+
+
+
+}
+.kids3 {
+
+background-color: white;
+justify-content: space-around;
+font-size: 20px;
+padding: 20px;
+}
+.space{
+    margin: 1000px;
+}
+
+.footer-first-line{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    padding-top: 60px;;
+
+
+}
+.footer-main{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    height:500px;
+    width:1600px;
+}
+.footer-first-secondline{
+    border:1px solid white;
+    display:inline-block;
+    height:30px;
+    width:320px;
+    padding:10px;
+    padding-top: 20px;;
+    text-align: left;
+    color:rgb(116, 112, 112);
+    margin-top:30px;
+    border-radius: 5px;
+    background-color: rgb(61, 59, 59);
+
+}
+.footer-first-thirdline{
+    border:1px solid white;
+    display:inline-block;
+    height:40px;
+    width:120px;
+    padding-top: 20px;
+    /* padding-left: 60px; */
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: rgb(60, 58, 58);
+    color:white;
+
+}
+.services{
+    display:grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+    justify-content: space-between;
+    margin-top:50px;
+    color:white;
+} 
+.member{
+    display: inline-block;
+}
+.shortcut~span{
+    padding:5px;
+    /* padding-top: 30px; */
+    /* margin:20px;
+    display: inline-block; */
+}
+.shortcut{
+    color:white;
+    font-weight: bold;
+    
+}
+.member{
+    color:gray
+}
+.shortcut aside{
+    padding: 20px;;
+}
+
+
+    </style>
+
+
+</head>
+
+<!-- =================================================   html ========================= -->
+
+<body>
+    <header>
+        <div class="row-1">
+            <div>
+                <span class="bi bi-truck">FREE SHIPPING WORLDWIDE</span>
+                <span class="nav-item">United States<span class="bi bi-chevron-down"></span></span>
+                <span class="nav-item">USD<span class="bi bi-chevron-down"></span></span>
+                <span class="nav-item">English<span class="bi bi-chevron-down"></span></span>
+
+            </div>
+            <div>
+                <span class="nav-item">Shipping</span>
+                <span class="nav-item">FAQ</span>
+                <span class="nav-item">contact</span>
+
+
+            </div>
+            <div class="logo">
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-youtube"></span>
+
+
+            </div>
+        </div>
+        <div class="row-2">
+
+
+            <div>
+                <span class="brand-title">Shopper.</span>
+
+            </div>
+            <div class="menue">
+                <span>Home</span>
+                <span>Catlog</span>
+                <span>Shop</span>
+                <span>pages</span>
+                <span>Blog</span>
+                <span>Docs</span>
+            </div>
+            <div class="info">
+                <span class="bi bi-search"></span>
+                <span class="bi bi-person"></span>
+                <span class="bi bi-heart"></span>
+                <span class="bi bi-cart"></span>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <article>
+            <span class="bi bi-lightning-fill"></span>
+            <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
+            <span class="bi bi-lightning-fill"></span>
+        </article>
+
+        <main>
+            <div class="fashion">
+                <div class="women-fashion">
+                    <div class="women2">Women</div>
+                    <div class="women3">Shop Women<span class="bi bi-arrow-right"></span></div>
+                </div>
+                <div class="male-fashion">
+                    <div class="men2">Men</div>
+                    <div class="men3">Shop Men<span class="bi bi-arrow-right"></span></div>
+                </div>
+                <div class="kids-fashion">
+                    <div class="kids2">kids</div>
+                    <div class="kids3">Shop kids<span class="bi bi-arrow-right"></span></div>
+                </div>
+            </div>
+        </main>
+
+        
+        <div class="side-text">
+            <div class="sub-side-text">
+                <span class="bi bi-truck"> &nbsp;&nbsp;FREE SHIPPING</span><br>
+                <span class="gray">Form all order over $100</span>
+
+            </div>
+            <div>
+                <span class="bi bi-repeat"> &nbsp;&nbsp;FREE RETURNS</span><br>
+                <span class="gray">Return money within 30 days</span>
+            </div>
+            <div>
+                <span class="bi bi-lock"> &nbsp;&nbsp;SECURE SHOPPING</span><br>
+                <span class="gray">You're in safe hands</span>
+            </div>
+            <div>
+                <span class="bi bi-tag"> &nbsp;&nbsp;OVER 10,000 STYLES</span><br>
+                <span class="gray">We have every thing you need</span>
+            </div>
+
+        </div>
+        <hr width="1300px">
+        <div class="last-text">
+            <div class="first-line">New Collection</div>
+            <div class="bold">Best Picks 2019</div>
+            <div class="inside-text">Appear, dry there darkness they're seas, dry waters thing fly midst. Beast,</div>
+            <div class="inside-text">above fly brought Very green.</div>
+        </div>
+        <div class="space"></div>
+
+    </section>
+    <!-- ---------------------------------------------------------------------------------------------------------- -->
+    <footer>
+<div class="footer-main">
+    <div class="footer-first-line">Want style Ideas and Treats?</div>
+    <span class="footer-first-secondline">Enter Email*</span>
+    <span class="footer-first-thirdline">Subscribe</span>
+
+
+
+<div class="services">
+    <div class="first-short-cut">
+        <div class="shortcut"> Shopper. </div><br>
+        <aside>
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-linkedin"></span>
+            <span></span>
+        </aside>
+
+    </div>
+    <div>
+        <div class="shortcut">Support</div><br>
+        <span class="member">Contact Us</span><br>
+        <span class="member">FAQs</span><br>
+        <span class="member">Size Guide</span><br>
+        <span class="member">Shipping & Returns</span><br>
+    </div>
+    <div>
+<div class="shortcut">Shop</div><br>
+<span class="member">Men's Shopping</span><br>
+<span class="member">Women's Shopping</span><br>
+<span class="member">Kids' Shopping</span><br>
+<span class="member">Discounts</span><br>
+    </div>
+    <div>
+        <div class="shortcut">Company</div><br>
+        <span class="member">Our Story</span><br>
+        <span class="member">Careers</span><br>
+        <span class="member">Terms & Conditions</span><br>
+        <span class="member">Privacy & Cookie policy</span><br>
+    </div>
+    <div>
+        <div class="shortcut">Contact</div><br>
+       <address>
+        <span class="member">1-202-555-0105</span><br>
+        <span class="member">1-202-555-0106</span><br>
+        <span class="member" >help@shopper.com</span><br>
+        
+        
+       </address>
+
+    </div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+        
+    </footer>
+</body>
+
+</html>
